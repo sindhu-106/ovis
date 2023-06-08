@@ -56,7 +56,7 @@
 #include <level_zero/zes_api.h>
 
 
-#define SAMP "gpumetrics"
+#define SAMP "gpu_metrics"
 #define MAX_METRIC_NAME_LENGTH 256
 #define MAX_NUMBER_DEVICE_INDEX 255
 
