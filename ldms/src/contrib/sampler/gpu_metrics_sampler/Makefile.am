@@ -76,7 +76,7 @@ libgmg_a_SOURCES = gmg_common_util.c gmg_log.c gather_gpu_metrics_from_one_api.c
 
 libgpumetrics_la_SOURCES = gpu_metrics_ldms_sampler.c
 libgpumetrics_la_LIBADD = $(COMMON_LIBADD) $(GMGLIBS)
-pkglib_LTLIBRARIES += libgpu_metrics.la
+pkglib_LTLIBRARIES += libgpumetrics.la
 
 bin_PROGRAMS = bin/gpu_metrics_gatherer
 bin_gpu_metrics_gatherer_SOURCES = gather_gpu_metrics.cpp
